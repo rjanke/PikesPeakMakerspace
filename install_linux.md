@@ -24,5 +24,22 @@ Install OS on the computer.
 - It's a good idea to install 3rd party media codecs if this is your first time around Linux. If the choice is given to you, of course. 
 - You can choose if you want to erase the whole disk, dual boot, etc. when installing. 
 
+### Get an Error?
+Error: Install from USB fails "An attempt to configure apt to install additional packages" 
+
+Solution originally from this [forum](https://forum.kodi.tv/showthread.php?tid=126351).
+1. Run the USB install as normal
+2. When you get to the screen where you enter your user name, pc name, etc. CTRL-ALT-F1 to get a shell.
+3. Run this command
+> sudo rm /usr/lib/ubiquity/apt-setup/generators/40cdrom
+for password just press enter
+4. Press CTRL-ALT-F7 to get back to your install
+5. Fill out your username password, etc as usual and continue and the install should continue and finish. 
+
+For Linux Mint the username is 
+```
+$ mint
+```
+
 ## Step 4
 That's it! Welcome to Linux.

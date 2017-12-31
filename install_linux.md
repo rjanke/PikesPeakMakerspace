@@ -36,9 +36,11 @@ for password just press enter
 4. Press CTRL-ALT-F7 to get back to your install
 5. Fill out your username password, etc as usual and continue and the install should continue and finish. 
 
+#### Can't get to the Shell?
+
 For Linux Mint the username is 
 ```
-$ mint
+mint
 ```
 And the just press 'Enter' for the password. This will grant you access to the shell. [Source](https://forums.linuxmint.com/viewtopic.php?t=105008).
 

@@ -40,6 +40,7 @@ For Linux Mint the username is
 ```
 $ mint
 ```
+And the just press 'Enter' for the password. This will grant you access to the shell. [Source](https://forums.linuxmint.com/viewtopic.php?t=105008).
 
 ## Step 4
 That's it! Welcome to Linux.
